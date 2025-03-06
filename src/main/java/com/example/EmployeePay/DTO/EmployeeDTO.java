@@ -1,6 +1,6 @@
 package com.example.EmployeePay.DTO;
 public class EmployeeDTO {
-
+//=============================Implement DTO ==============================//
     String name;
     Long salary;
 
