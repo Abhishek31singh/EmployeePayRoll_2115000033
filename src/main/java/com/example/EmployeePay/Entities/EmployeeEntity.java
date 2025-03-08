@@ -3,7 +3,7 @@ package com.example.EmployeePay.Entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "employees")
+@Table(name = "Employee")
 public class EmployeeEntity {
 
     String name;
