@@ -18,7 +18,7 @@ public class EmployeeController {
     @Autowired
     I_EmployeeService iEmployeeService;
 
-    //UC2 --> CRUD operations on employee database through REST API's
+    //========================UC2 CRUD operations using REST API's===============================================================//
     @GetMapping("/get/{id}")
     public EmployeeDTO get(@PathVariable Long id) throws Exception{
         log.info("Employee tried to get with id: {}", id);
